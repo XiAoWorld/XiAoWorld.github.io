@@ -11,83 +11,76 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fa;
+      background: linear-gradient(to bottom right, #f69d3c, #3f87a6);
     }
 
-    header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 20px;
+    #container {
+      width: 80%;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-    header h1 {
+    h1 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
       margin: 0;
     }
 
-    nav {
-      background-color: #333;
-      overflow: hidden;
-    }
-
-    nav a {
-      float: left;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
+    ul li a {
+      font-size: 16px;
+      color: #999;
       text-decoration: none;
+      transition: color 0.3s;
     }
 
-    nav a:hover {
-      background-color: #111;
+    ul li a:hover {
+      color: #333;
     }
 
-    main {
-      padding: 20px;
+    #contact-info {
+      margin-top: 30px;
     }
 
-    main h2 {
-      margin-top: 0;
-    }
-
-    footer {
-      background-color: #333;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* 以下是为各个页面添加的独特样式 */
-    #about-page main {
-      background-color: #e9ecef;
-    }
-
-    #articles-page main {
-      background-color: #dee2e6;
-    }
-
-    #contact-page main {
-      background-color: #ced4da;
+    #contact-info p {
+      margin: 10px 0;
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <h1>熙翱</h1>
-  </header>
-  <nav>
-    <a href=" ">首页</a >
-    <a href="about.html">关于</a >
-    <a href="articles.html">文章</a >
-    <a href="contact.html">联系</a >
-  </nav>
-  <main id="home-page">
-    <h2>欢迎来到熙翱博客</h2>
-    <p>这里是您获取精彩内容的地方！</p >
-  </main>
-  <footer>
-    <p>版权所有 &copy; 2024 熙翱博客</p >
-  </footer>
+  <div id="container">
+    <h1>个人简介</h1>
+    <p>我叫[你的名字]，是一个对[你的兴趣领域]充满热情的人。</p >
+    <p>在过去的[时间段]里，我一直在[你的主要经历或工作领域]中探索和成长。</p >
+    <p>我擅长[你的主要技能或特长]，并且不断努力提升自己，追求卓越。</p >
+    <h2>其他网站链接</h2>
+    <ul>
+      <li><a href=" ">网站 1</a ></li>
+      <li><a href="[网站链接 2]">网站 2</a ></li>
+      <li><a href="[网站链接 3]">网站 3</a ></li>
+    </ul>
+    <h2>联系方式</h2>
+    <div id="contact-info">
+      <p>邮箱：[你的邮箱地址]</p >
+      <p>电话：[你的电话号码]</p >
+      <p>社交媒体：[社交媒体账号]</p >
+    </div>
+  </div>
 </body>
 
 </html>
